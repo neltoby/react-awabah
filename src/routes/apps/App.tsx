@@ -8,12 +8,12 @@ import BodySecond from '@/assets/body-second.png'
 import BodyThird from '@/assets/body-third.png'
 import Description from '@/components/Description'
 import FooterText from '@/components/Footer/FooterText'
-import FooterHeadertext from './components/Footer/FooterHeaderText'
+import FooterHeadertext from '../../components/Footer/FooterHeaderText'
 import Facebook from '@/assets/Facebook.png'
 import Twitter from '@/assets/twitter.png'
 import Instagram from '@/assets/instagram.png'
 import LinkedIn from '@/assets/linkedin.png'
-import Img from './components/Socials'
+import Img from '../../components/Socials'
 
 function App() {
 
@@ -29,7 +29,7 @@ function App() {
               <NavItem label='About' />
               <NavItem label='FAQs' />
               <NavItem label='Contact Us' />
-              <div className=''> <Button label='Get Started'/> </div>
+              <div className=''> <Button aria-label='Get started' label='Get Started'/> </div>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ function App() {
               <p>Join Valubah and take the first step</p> <p>towards securing your future.</p>
             </div>
             <div className='mt-8'>
-              <Button label='Get Started' className='bg-green-950 rounded text-white font-semibold py-2 px-4' />
+              <Button aria-label='Get started' label='Get Started' className='bg-green-950 rounded text-white font-semibold py-2 px-4' />
             </div>
           </div>
         </div>
@@ -124,8 +124,8 @@ function App() {
             <p className='text-white text-3xl font-bold leading-8'> Valubah</p>
             <p className='mt-5 text-white text-xl font-bold'>Subscribe to our Newsletter</p>
             <div className='mt-5 flex'>
-              <input placeholder='Enter your Email' className='w-4/5 p-2 mr-0 bg-gray-800 rounded-r-lg' />
-              <Button label='Get Started' className='ml-0 bg-red-200 rounded rounded-l-[0] text-gray-800 w-1/5 font-semibold py-2 px-4' />
+              <input aria-label="Enter email" placeholder='Enter your Email' className='w-4/5 p-2 mr-0 bg-gray-800 rounded-r-lg' />
+              <Button aria-label='Get started' label='Get Started' className='ml-0 bg-red-200 rounded rounded-l-[0] text-gray-800 w-1/5 font-semibold py-2 px-4' />
             </div>
           </div>
         </div>
